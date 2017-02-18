@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bOc-TX-2CK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bOc-TX-2CK">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -78,9 +78,7 @@
                             <constraint firstItem="ssD-zG-UGS" firstAttribute="leading" secondItem="Ax4-kl-ykl" secondAttribute="leadingMargin" id="Ks7-g4-zez"/>
                             <constraint firstItem="58i-wu-XZd" firstAttribute="leading" secondItem="Ax4-kl-ykl" secondAttribute="leadingMargin" id="Q4m-Sn-dEt"/>
                             <constraint firstItem="b30-2s-ncv" firstAttribute="top" secondItem="ywE-O3-cUL" secondAttribute="bottom" constant="10" id="Tu1-uE-wcp"/>
-                            <constraint firstItem="58i-wu-XZd" firstAttribute="top" secondItem="f1U-pD-sfs" secondAttribute="bottom" constant="10" id="Uga-mB-fDO"/>
                             <constraint firstAttribute="trailing" secondItem="ywE-O3-cUL" secondAttribute="trailing" id="Vlf-qE-T3G"/>
-                            <constraint firstItem="ssD-zG-UGS" firstAttribute="top" secondItem="58i-wu-XZd" secondAttribute="bottom" constant="10" id="Yq9-xC-IGA"/>
                             <constraint firstItem="ywE-O3-cUL" firstAttribute="leading" secondItem="Ax4-kl-ykl" secondAttribute="leading" id="eUh-uB-diT"/>
                             <constraint firstItem="8fj-1n-Kd7" firstAttribute="leading" secondItem="Ax4-kl-ykl" secondAttribute="leadingMargin" id="i9U-6W-EXP"/>
                             <constraint firstItem="ssD-zG-UGS" firstAttribute="top" secondItem="8fj-1n-Kd7" secondAttribute="bottom" constant="10" id="ln4-CZ-qwC"/>

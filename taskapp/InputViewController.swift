@@ -51,7 +51,7 @@ class InputViewController: UIViewController {
             self.task.title = self.titleTextField.text!
             self.task.contents = self.contentsTextView.text
             self.task.date = self.datePicker.date as NSDate
-            self.task.category = self.titleTextField.text!
+            self.task.category = self.categoryTextField.text!
             self.realm.add(self.task, update: true)
         }
         
@@ -76,7 +76,7 @@ class InputViewController: UIViewController {
         // ローカル通知を登録
         let center = UNUserNotificationCenter.current()
         center.add(request) { (error) in
-            print(error)
+            print(error as Any)
         }
         
         // 未通知のローカル通知一覧をログ出力
